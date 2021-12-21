@@ -30,6 +30,9 @@ input{
     padding:14px 4px;
     width: 400px;
 }
+input:focus{
+ border-bottom: 1px solid rgb(39, 18, 224);
+}
 img {
   max-width: 100%;
 }
@@ -89,8 +92,15 @@ p {
   align-items: center;
 }
 .icon-arrow{
-    width: 32px;
-    height: 17px;
+  display: inline-block;
+  padding: 5px;
+    width: 60px;
+    height: 30px;
+    cursor:pointer
+
+}
+.icon-arrow:hover{
+  background-color: #ccc;
 }
 .place h2,.news h2 {
   margin-bottom: 22px;
