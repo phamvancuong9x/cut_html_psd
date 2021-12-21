@@ -183,6 +183,12 @@ cursor: pointer;
 
 }
 @media( max-width: 768px){
+.nav-link:hover{
+    border:none;
+  }
+  .nav-item:hover{
+    background-color: #ccc;
+  }
   .place__item1,
 .place__item3,.news__item1{
   margin-left: 0;
